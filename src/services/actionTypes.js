@@ -1,0 +1,4 @@
+const SETLIST = "SETLIST";
+const CHECKED = "CHECKED";
+
+export { SETLIST, CHECKED };
