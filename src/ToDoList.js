@@ -21,6 +21,7 @@ const ToDoList = () => {
       setActive([]);
       setCompleted([]);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [List])
 
   const filtering = () => {
