@@ -1,0 +1,115 @@
+body {
+  background-color: black;
+}
+
+.align {
+  text-align: center;
+}
+
+.main {
+  color: aliceblue;
+}
+
+.effects {
+  height: 370px;
+  overflow-y: scroll;
+  width: 100%;
+}
+
+.sizeing {
+  margin: auto;
+  width: 60%;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  margin: 20px auto auto 8%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.flexGrow {
+  flex-basis: 50%;
+  flex-grow: 1;
+}
+
+.listAlignCenter {
+  align-items: center;
+}
+
+.flexJustify {
+  justify-content: space-evenly !important;
+}
+
+.listJustify {
+  justify-content: space-between !important;
+}
+
+.removeButton {
+  width: 120% !important;
+  font-size: large !important;
+}
+
+.input {
+  padding: 1.5% 5% 1.5% 4%;
+  width: 90%;
+  font-size: x-large;
+  border-radius: 10px;
+  background-color: aliceblue;
+}
+
+.button {
+  background-color: aquamarine;
+  width: 20% !important;
+  padding: 13px;
+  margin: 3px;
+  cursor: pointer;
+}
+
+.button:focus {
+  box-shadow: 0 0 2px 4px #5a01a7;
+  transition: 0.4s;
+}
+
+.filteringButtons {
+  margin: 10px;
+  width: 65% !important;
+  padding: 10px !important;
+  height: 55px;
+  font-size: large;
+}
+
+.to-do-list {
+  margin: 5px auto auto auto;
+  width: 90%;
+  background-color: rgb(47, 230, 230);
+  color: black;
+}
+
+.formWidth {
+  width: 100%;
+}
+
+.listAlign {
+  text-align: left;
+}
+
+.checkBox {
+  width: 30px;
+  height: 17px;
+}
+
+.wordStrike {
+  text-decoration: line-through;
+  color: red;
+}
+
+.marginNone{
+  margin: 0;
+}
